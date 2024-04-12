@@ -1,0 +1,4 @@
+<template>
+  My App
+</template>
+
