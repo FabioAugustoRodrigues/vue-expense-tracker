@@ -3,7 +3,7 @@
 
   <div class="container">
     <Balance :total="total"></Balance>
-    <IncomeExpenses :income="income" :expenses="expenses"></IncomeExpenses>
+    <IncomeExpenses :income="+income" :expenses="+expenses"></IncomeExpenses>
     <TransactionList :transactions="transactions"></TransactionList>
     <AddTransaction></AddTransaction>
   </div>
